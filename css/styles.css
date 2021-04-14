@@ -1,90 +1,90 @@
-/* Style for the top heading links */
+/* Style for the top heading */
 .nav-item{
     display: inline-block; 
     margin-right: -3px;
-    padding: 14px 13px;
-    float: right;
-    font-size: 17px;
+    padding: 14px 13px; 
+    float: right; 
+    font-size: 17px; 
     width: 250px; 
-    font-weight: bold;
-  }
-
-  @media only screen and (max-width: 975px) {
-    .nav-item {
-      width: 100%; 
-      margin: 10px 80px;
-    }
-  }
-
-  @media only screen and (min-width: 465px) {
-    .logo {
-      float: right; 
-      margin: auto;
-    }
-  }
-
-  .navbar-toggler {
-    padding: .25rem .75rem;
-    font-size: 3rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    -webkit-transition: -webkit-box-shadow .15s ease-in-out;
-    transition: -webkit-box-shadow .15s ease-in-out;
-    transition: box-shadow .15s ease-in-out;
-    transition: box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-    margin: auto;
+    font-weight: bold; 
 }
 
-  .fa-bars{
-    margin: auto;
-  }
+@media only screen and (max-width: 975px){
+    .nav-item{
+        width: 100%; 
+        margin: 10px 80px; 
+    }
+}
+@media only screen and (min-width: 465px){
+    .logo{
+        float: right;
+        margin: auto; 
+    }
+}
 
-  .flex-fill{
-    margin: 1rem 5rem;
-  }
+.navbar-toggler{
+    padding: .25rem .75rem; 
+    font-size: 3rem;
+    line-height: 1; 
+    background-color: transparent;
+    border: 1px solid transparent; 
+    border-radius: .25rem; 
+    -webkit-transition: -webkit-box-shadow .15s ease-in-out; 
+    transition: -webkit-box-shadow .15s ease-in-out; 
+    transition: box-shadow .15s ease-in-out; 
+    transition: box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out; 
+    margin: auto; 
+}
 
-  /* Style the buttons */
-.nav-link {
-    border: none;
+.fa-bars{
+    margin: auto; 
+}
+
+.flex-fill{
+    margin: 1rem 5rem; 
+}
+
+/* Style the buttons */
+.nav-link{
+    border: none; 
     outline: none;
-    padding: 10px 16px;
-    cursor: pointer;
-  }
-  
-  /* Style the active class (and buttons on mouse-over) */
-  .active, .nav-item:hover {
-    background-color: #f1f1f1;
-    color: white;
-  }
+    padding: 10px 16px; 
+    cursor: pointer; 
+}
 
-  /* Style of the Footer */
-  .pt-4 {
+/* Style the active class (and button on mouse-over) */
+.active, .nav-item:hover {
+     background-color: #f1f1f1; 
+     color: white; 
+}
+
+/* Style for Cards  */
+
+.card-group{
+    margin: 1rem 5rem; 
+}
+
+.card{
+    padding: 10px; 
+}
+
+.btn{
+    background-color: #0d223d; 
+}
+
+.fthomes{
+    margin: 1rem 5rem; 
+}
+
+/* Style the footer */
+
+.pt-4{
     background-color: #6abf4a;
-  }
+}
 
-  .py-3{
+.py-3{ 
     background-color: #0d223d;
-    color: white;
-  }
+    color: white; 
+}
 
-  /* Style for Cards */
 
-  .card-group{
-    margin: 1rem 5rem;
-  }
-
-  .card{
-    padding: 10px;
-  }
-
-  .btn{
-    background-color: #0d223d;
-  }
-  
-  .fthomes{ 
-    margin: 1rem 5rem;
-  }
-
-  
